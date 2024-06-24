@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import { Button } from "@/components/ui/button.jsx"
 
 function App() {
   
   return (
     <>
-    {/* <div>Hi</div> */}
-      hi
+      
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    <div>
+      <Button>Click me</Button>
+    </div>
     </>
   )
 }
