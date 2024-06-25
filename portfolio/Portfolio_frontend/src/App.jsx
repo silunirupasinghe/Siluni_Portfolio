@@ -1,20 +1,29 @@
 import { useState } from 'react'
 import './App.css'
-import { Button } from "@/components/ui/button.jsx"
 
+import React from 'react'
+import Navigation from './components/Navigation'
+import Introduction from './components/Introduction'
+import About from './components/About'
+import Projects from './components/Projects'
+import Techstack from './components/Techstack'
+import Contacts from './components/Contact'
 function App() {
-  
+
   return (
     <>
+      <div className=''>
+      <Navigation/>
+      <main>
+      <Introduction/>
+      <About/>
+      <Projects/>
+      <Techstack/>
+      <Contacts/>
       
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <div>
-      <Button>Click me</Button>
-    </div>
+      </main>
+      </div>
     </>
   )
 }
-
 export default App
