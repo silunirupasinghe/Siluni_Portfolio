@@ -1,3 +1,7 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase, faSchool, faUniversity } from '@fortawesome/free-solid-svg-icons';
+
 function About() {
     return (
         <>
@@ -40,25 +44,36 @@ function About() {
                     <div className="mt-8">
                         <hr className="my-4 border-yellow-300 " />
                         <h2 className="text-xl font-normal text-yellow-100 pl-4">EXPERIENCE</h2>
-                        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 pl-4">
-                            <div className="flex flex-col gap-6 md:flex-row md:gap-12">
-                                <li className="text-lg font-normal px-8 mr-10">
-                                    Finance Associate<br />
-                                    Sellwin Holdings (pvt) Ltd<br />
-                                    2023 March- 2024 April
-                                </li>
-                                <li className="text-lg font-normal ">
-                                    Intern Finance<br />
-                                    Sellwin Holdings (pvt) Ltd<br />
-                                    OCT 2022- MARCH 2023
-                                </li>
+                        <div className="mt-4 pl-4">
+                            <div className="relative">
+                                <div className="border-l-2 border-yellow-300 absolute h-full left-8"></div>
+                                <div className="flex items-center mb-8 relative">
+                                    <div className="bg-yellow-300 h-6 w-6 rounded-full absolute left-5 flex items-center justify-center">
+                                        <FontAwesomeIcon icon={faBriefcase} className="text-white text-xs" />
+                                    </div>
+                                    <div className="ml-12">
+                                        <h3 className="text-lg font-normal text-yellow-100 ">Finance Associate</h3>
+                                        <p>Sellwin Holdings (Pvt) Ltd</p>
+                                        <span>March 2023 - April 2024</span>
+                                    </div>
+                                </div>
+                                <div className="flex items-center mb-6 relative">
+                                    <div className="bg-yellow-300 h-6 w-6 rounded-full absolute left-5 flex items-center justify-center">
+                                        <FontAwesomeIcon icon={faBriefcase} className="text-white text-xs" />
+                                    </div>
+                                    <div className="ml-12">
+                                        <h3 className="text-lg font-normal text-yellow-100">Intern Finance</h3>
+                                        <p>Sellwin Holdings (pvt) Ltd</p>
+                                        <span>October 2022 - March 2023</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </>
-    )
+    );
 }
 
 export default About;

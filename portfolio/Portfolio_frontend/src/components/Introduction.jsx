@@ -11,7 +11,7 @@ function Introduction() {
             <img
               src={cv}
               alt="Siluni"
-              className="h-60 w-60 md:h-80 md:w-80 rounded-full"
+              className="h-60 w-60 md:h-80 md:w-80 rounded-full "
             />
           </div>
 
