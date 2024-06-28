@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCopyright, faEnvelope, faLocationDot, faPaperPlane, faPhone, faShare } from '@fortawesome/free-solid-svg-icons';
+import cv from "../assets/pdf/Siluni Rupasinghe- Resume.pdf"
+import { faCopyright, faDownload, faEnvelope, faLocationDot, faPaperPlane, faPhone, faShare } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function Contacts() {
     return (
@@ -13,6 +14,15 @@ function Contacts() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                         <div className="text-lg pl-10">
+
+                            <div className='text-lg mx-5 mb-4'>
+                                <a href={cv} target="_blank" rel="noopener noreferrer">
+                            <button type="submit" class="text-black  bg-yellow-300 hover:bg-yellow-800  font-medium rounded-lg text-sm w-16 sm:w-auto px-2 py-2 text-center dark:focus:ring-blue-800">
+                                Download Resume
+                                    <FontAwesomeIcon icon={faDownload} className=" ml-3 mr-3 text-xl" />
+                                </button>
+                                </a>
+                            </div>
                             <div className='text-lg mx-5 '>
                                 <FontAwesomeIcon icon={faEnvelope} className=" text-yellow-300 text-2xl" />
                                 <h className='text-center '> : silunirupasinghe@gmail.com</h>
@@ -68,8 +78,8 @@ function Contacts() {
                                     <textarea type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 </div>
 
-                                <button type="submit" class="text-black  bg-yellow-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send
-                                    <FontAwesomeIcon icon={faPaperPlane} className=" ml-3 mr-3 text-3xl" />
+                                <button type="submit" class="text-black  bg-yellow-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-2 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send
+                                    <FontAwesomeIcon icon={faPaperPlane} className=" ml-3 mr-3 text-xl" />
                                 </button>
                             </form>
                         </div>
