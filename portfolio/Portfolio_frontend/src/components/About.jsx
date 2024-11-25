@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faSchool, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function About() {
     return (
@@ -47,14 +48,28 @@ function About() {
                         <div className="mt-4 pl-4">
                             <div className="relative">
                                 <div className="border-l-2 border-yellow-300 absolute h-full left-8"></div>
+                                <div className="flex items-center mb-6 relative">
+                                    <div className="bg-yellow-300 h-6 w-6 rounded-full absolute left-5 flex items-center justify-center">
+                                        <FontAwesomeIcon icon={faBriefcase} className="text-white text-xs" />
+                                    </div>
+                                    <div className="ml-12">
+                                        <h3 className="text-lg font-normal text-yellow-100">Software Engineering Intern</h3>
+                                        <Link to="https://www.linkedin.com/company/oxzonai/posts/?feedView=all">
+                                        <p>OXZON AI - UK</p>
+                                        </Link>
+                                        <span>October 2024 - Present</span>
+                                    </div>
+                                </div>
                                 <div className="flex items-center mb-8 relative">
                                     <div className="bg-yellow-300 h-6 w-6 rounded-full absolute left-5 flex items-center justify-center">
                                         <FontAwesomeIcon icon={faBriefcase} className="text-white text-xs" />
                                     </div>
                                     <div className="ml-12">
                                         <h3 className="text-lg font-normal text-yellow-100 ">Finance Associate</h3>
+                                        <Link>
                                         <p>Sellwin Holdings (Pvt) Ltd</p>
-                                        <span>March 2023 - April 2024</span>
+                                        </Link>
+                                        <span>March 2023 - September 2024</span>
                                     </div>
                                 </div>
                                 <div className="flex items-center mb-6 relative">
@@ -63,10 +78,13 @@ function About() {
                                     </div>
                                     <div className="ml-12">
                                         <h3 className="text-lg font-normal text-yellow-100">Intern Finance</h3>
-                                        <p>Sellwin Holdings (pvt) Ltd</p>
+                                        <Link>
+                                        <p>Sellwin Holdings (Pvt) Ltd</p>
+                                        </Link>
                                         <span>October 2022 - March 2023</span>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

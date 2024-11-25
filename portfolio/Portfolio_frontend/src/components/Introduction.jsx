@@ -18,7 +18,7 @@ function Introduction() {
           {/* Text Section */}
           <div className="text-left">
             <div className="text-lg text-gray-600">HI THERE,</div>
-            <h2 className="text-3xl md:text-4xl text-yellow-300 font-bold">
+            <h2 className="text-3xl md:text-4xl text-yellow-300 font-bold ">
               I'm Siluni Rupasinghe
             </h2>
             <p className="mt-4 text-lg leading-relaxed pr-10">

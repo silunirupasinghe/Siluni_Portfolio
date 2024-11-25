@@ -11,7 +11,7 @@ function Navigation() {
     <div className="container my-5 mx-auto px-20">
       <nav className="flex items-center justify-between">
         <div className="text-4xl font-medium text-underlay-1 flex items-center">
-          <div className="mx-auto">Siluni Rupasinghe</div>
+          <div className="mx-auto mb-5">Siluni Rupasinghe</div>
         </div>
 
         {/* Hamburger menu button */}
