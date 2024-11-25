@@ -3,6 +3,8 @@ import textile from "../assets/projects/textile.png";
 import sellwin from "../assets/projects/sellwin.png";
 import hirely from "../assets/projects/hirely.png";
 import cv from "../assets/pdf/Siluni Rupasinghe- Resume.pdf"
+import Natura from "../assets/projects/Natura.png";
+import medihelp from "../assets/projects/medihelp.png";
 function Projects() {
     return (
         <>
@@ -13,7 +15,7 @@ function Projects() {
                     <div className="flex flex-wrap gap-8 justify-center my-10">
                         <div className="container2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
                             <a href={cv} target="_blank" rel="noopener noreferrer">
-                                <img src={textile} alt="Avatar" className="image h-52 w-full object-cover rounded-lg" />
+                                <img src={medihelp} alt="Avatar" className="image h-full w-full object-cover rounded-lg" />
                             
                             <div className="middle">
                                 <div className="text font-bold">Textile & Garment Management System</div>
@@ -22,16 +24,16 @@ function Projects() {
                         </div>
 
                         <div className="container2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-                            <img src={sellwin} alt="Avatar" className="image h-52 w-full object-cover rounded-lg" />
+                            <img src={sellwin} alt="Avatar" className="image h-full w-full object-cover rounded-lg" />
                             <div className="middle">
                                 <div className="text">Website for Sellwin Holdings (pvt) Ltd</div>
                             </div>
                         </div>
 
                         <div className="container2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 ">
-                            <img src={hirely} alt="Avatar" className="image h-full w-full object-cover rounded-lg" />
+                            <img src={Natura} alt="Avatar" className="image h-full w-full object-cover rounded-lg" />
                             <div className="middle">
-                                <div className="text">Hirely</div>
+                                <div className="text">Natura React Native Mobile App</div>
                             </div>
                         </div>
                     </div>
