@@ -44,6 +44,11 @@ function Navigation() {
             </a>
           </div>
           <div className="block pt-3 mx-4">
+            <a href="#techstack" onClick={toggleMenu}>
+              Tech Stack
+            </a>
+          </div>
+          <div className="block pt-3 mx-4">
             <a href="#projects" onClick={toggleMenu}>
               Projects
             </a>
@@ -51,11 +56,6 @@ function Navigation() {
           <div className="block pt-3 mx-4">
             <a href="#contact" onClick={toggleMenu}>
               Contact
-            </a>
-          </div>
-          <div className="block pt-3 mx-4">
-            <a href="#techstack" onClick={toggleMenu}>
-              Tech Stack
             </a>
           </div>
         </div>

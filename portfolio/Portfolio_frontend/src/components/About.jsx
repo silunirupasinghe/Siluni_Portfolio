@@ -7,7 +7,7 @@ function About() {
     return (
         <>
             <section id="about" className="py-10">
-                <div className="container mx-auto px-28">
+                <div className="container mx-auto md:px-28 sm:px-auto">
                     <h2 className="text-3xl md:text-4xl text-yellow-300 font-bold text-center">About Me</h2>
                     <hr className="my-4 border-yellow-200" />
                     
@@ -45,7 +45,7 @@ function About() {
                     <div className="mt-8">
                         <hr className="my-4 border-yellow-300 " />
                         <h2 className="text-xl font-normal text-yellow-100 pl-4">EXPERIENCE</h2>
-                        <div className="mt-4 pl-4">
+                        <div className="mt-4 pl-8">
                             <div className="relative">
                                 <div className="border-l-2 border-yellow-300 absolute h-full left-8"></div>
                                 <div className="flex items-center mb-6 relative">
