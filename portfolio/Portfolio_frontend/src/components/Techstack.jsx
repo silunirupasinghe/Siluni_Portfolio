@@ -10,6 +10,7 @@ import bootstrap from "../assets/svgicons/libraries/bootstrap.svg";
 import express from "../assets/svgicons/libraries/express.svg";
 import node from "../assets/svgicons/libraries/node.svg";
 import react from "../assets/svgicons/libraries/react.svg";
+import reactnative from "../assets/svgicons/libraries/reactnative.svg";
 import tailwind from "../assets/svgicons/libraries/tailwind.svg";
 
 import css from "../assets/svgicons/webtechnologies/css.svg";
@@ -18,6 +19,7 @@ import php from "../assets/svgicons/webtechnologies/php.svg";
 import mongodb from "../assets/svgicons/db/mongodb.svg";
 import mysql from "../assets/svgicons/db/mysql.svg";
 import sqlite from "../assets/svgicons/db/sqlite.svg";
+import oracle from "../assets/svgicons/db/oracle.svg";
 
 import github from "../assets/svgicons/tools/github.svg"
 import androidstudio from "../assets/svgicons/tools/androidstudio.svg"
@@ -36,6 +38,10 @@ function Techstack() {
                     <div className='items-center text-center'>
                         <img src={javaicon} className="w-24 h-20 mx-auto" alt="Java" />
                         <h4 className="p-6 pt-5 font-serif">Java</h4>
+                    </div>
+                    <div className='items-center text-center'>
+                        <img src={javascript} className="w-24 h-20 mx-auto" alt="JavaScript" />
+                        <h4 className="p-6 pt-5 font-serif">JavaScript</h4>
                     </div>
                     <div className='items-center text-center'>
                         <img src={kotlin} className="w-24 h-20 mx-auto" alt="Kotlin" />
@@ -70,6 +76,10 @@ function Techstack() {
                         <h4 className="p-6 pt-5 font-serif">Express</h4>
                     </div>
                     <div className='items-center text-center'>
+                        <img src={reactnative} className="w-24 h-20 mx-auto" alt="Node" />
+                        <h4 className="p-6 pt-5 font-serif">React Native</h4>
+                    </div>
+                    <div className='items-center text-center'>
                         <img src={bootstrap} className="w-24 h-20 mx-auto" alt="Bootstrap" />
                         <h4 className="p-6 pt-5 font-serif">Bootstrap</h4>
                     </div>
@@ -81,10 +91,7 @@ function Techstack() {
 
                 <h2 className="text-xl font-normal text-yellow-100 pl-4">Web Technologies</h2>
                 <div className="mt-4 grid grid-cols-3 gap-8 sm:grid-cols-2 md:grid-cols-7 pl-4">
-                    <div className='items-center text-center'>
-                        <img src={javascript} className="w-24 h-20 mx-auto" alt="JavaScript" />
-                        <h4 className="p-6 pt-5 font-serif">JavaScript</h4>
-                    </div>
+                    
                     <div className='items-center text-center'>
                         <img src={php} className="w-24 h-20 mx-auto" alt="PHP" />
                         <h4 className="p-6 pt-5 font-serif">PHP</h4>
@@ -108,6 +115,10 @@ function Techstack() {
                     <div className='items-center text-center'>
                         <img src={sqlite} className="w-24 h-20 mx-auto" alt="SQLite" />
                         <h4 className="p-6 pt-5 font-serif">SQLite</h4>
+                    </div>
+                    <div className='items-center text-center'>
+                        <img src={oracle} className="w-24 h-20 mx-auto" alt="SQLite" />
+                        <h4 className="p-6 pt-5 font-serif">Oracle</h4>
                     </div>
                 </div>
 

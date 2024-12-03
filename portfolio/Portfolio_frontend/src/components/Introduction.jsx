@@ -26,7 +26,7 @@ function Introduction() {
             I specialize in Web Development and Android Mobile Development, 
             with a strong foundation in the MERN Stack, Java, and Python. 
             I am committed to crafting clean, efficient, and scalable code while 
-            excelling as a quick learner and collaborative team player. 
+            excelling as a quick learner and a collaborative team player. 
             With a sharp attention to detail, I am eager to enhance my skills 
             and contribute meaningfully to the tech industry.
             </p>

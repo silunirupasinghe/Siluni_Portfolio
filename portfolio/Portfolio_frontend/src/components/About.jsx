@@ -19,7 +19,7 @@ function About() {
 
                         <div className="flex flex-col md:flex-row gap-6">
                             <h2 className="text-xl font-normal">Birthday :</h2>
-                            <h2 className="text-xl font-normal text-yellow-100">3rd FEB 2002</h2>
+                            <h2 className="text-xl font-normal text-yellow-100">3rd Feb 2002</h2>
                         </div>
                     </div>
 
