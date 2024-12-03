@@ -22,13 +22,13 @@ function Introduction() {
               I'm Siluni Rupasinghe
             </h2>
             <p className="mt-4 text-lg leading-relaxed px-3">
-              I'm a passionate and driven Software Engineering undergraduate. I
-              specialize in Web Development, Android Mobile Development, and have
-              a strong background in MERN Stack, Java, Python, etc. I'm
-              passionate about writing clean, efficient, and scalable code. I
-              thrive as a quick learner and team player with a keen eye for
-              detail. I'm excited to continue growing my skills and making an
-              impact in the industry.
+            As a dedicated Software Engineering undergraduate, 
+            I specialize in Web Development and Android Mobile Development, 
+            with a strong foundation in the MERN Stack, Java, and Python. 
+            I am committed to crafting clean, efficient, and scalable code while 
+            excelling as a quick learner and collaborative team player. 
+            With a sharp attention to detail, I am eager to enhance my skills 
+            and contribute meaningfully to the tech industry.
             </p>
           </div>
         </div>
