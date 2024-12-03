@@ -6,6 +6,7 @@ import cv from "../assets/pdf/Siluni Rupasinghe- Resume.pdf";
 import Natura from "../assets/projects/Natura.png";
 import medihelp from "../assets/projects/medihelp.png";
 import portfolio from "../assets/projects/portfolio.png";
+import farmtech from "../assets/projects/farmtech.png";
 
 function Projects() {
     return (
@@ -31,7 +32,7 @@ function Projects() {
 
                         <div className="container2">
                             <img
-                                src={sellwin}
+                                src={farmtech}
                                 alt="Avatar"
                                 className="image h-full w-full object-cover rounded-lg"
                             />
@@ -66,7 +67,7 @@ function Projects() {
 
                         <div className="container2">
                             <img
-                                src={medihelp}
+                                src={sellwin}
                                 alt="Avatar"
                                 className="image h-full w-full object-cover rounded-lg"
                             />
@@ -82,7 +83,7 @@ function Projects() {
                                 className="image h-full w-full object-cover rounded-lg"
                             />
                             <div className="middle">
-                                <div className="text">Website for Sellwin Holdings (Pvt) Ltd</div>
+                                <div className="text">Portfolio Website</div>
                             </div>
                         </div>
 
