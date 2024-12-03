@@ -18,7 +18,7 @@ function Projects() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-6">
                         <div className="container2">
-                            <a href={cv} target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/SLIIT-Group-projects/Y3S1-CSSE/tree/merge2" target="_blank" rel="noopener noreferrer">
                                 <img
                                     src={medihelp}
                                     alt="Avatar"
@@ -31,6 +31,7 @@ function Projects() {
                         </div>
 
                         <div className="container2">
+                            <a href="https://github.com/SLIIT-Group-projects/SLIIT-Y3S1-SPM/tree/main">
                             <img
                                 src={farmtech}
                                 alt="Avatar"
@@ -39,6 +40,7 @@ function Projects() {
                             <div className="middle">
                                 <div className="text">Farm Tech</div>
                             </div>
+                            </a>
                         </div>
 
                         <div className="container2">
